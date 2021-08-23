@@ -41,3 +41,29 @@ nav#navigation {
     color: white;
 }
 
+.menu.right-menu {
+    float: right;
+    margin-right: 16px;
+}
+
+.menu.right-menu li:hover{
+    background-color: white;
+}
+
+.menu.right-menu li:hover i{
+    color: #059862;
+}
+
+.menu.right-menu li.menu-button {
+    padding: 8px 24px;
+    margin: 16px 8px;
+    height: 60%;
+    border-radius: 36px;
+}
+ 
+.menu.right-menu li.menu-button:hover,
+.menu.right-menu li.menu-button.active {
+    color: white;
+    background-color: #059862;
+}
+
